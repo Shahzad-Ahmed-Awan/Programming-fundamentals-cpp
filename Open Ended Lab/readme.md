@@ -6,7 +6,6 @@ This application is a full-featured console system designed to handle user authe
 
 [![C++](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://en.cppreference.com/w/)
 [![Type](https://img.shields.io/badge/Project-Console%20Application-informational.svg)](https://github.com/your-username/programming-fundamentals)
-[![Status](https://img-badge.s3.amazonaws.com/status-complete-lightgrey.svg)](https://github.com/your-username/programming-fundamentals)
 
 ***
 
