@@ -32,10 +32,10 @@ This table provides a concise, high-density summary of the objective and key det
 | :--- | :--- | :--- | :--- | :--- |
 | **Squared Distance** | Calculate $d^2$ between fixed points $(3, 4)$ and $(6, 8)$. | Fixed variables, `double`, basic arithmetic. | $d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$ | Shows coordinates and `squared distance: 25`. |
 | **Items Purchase List** | Calculate subtotal, 6% tax, and total for five fixed-price items. | Fixed `double` values, `const` tax rate, sequential output. | Total = Subtotal + (Subtotal $\times 0.06$) | Displays prices for 5 items, then Subtotal, Tax, and Total. |
-| **Average of Three Numbers** | Calculate the average of three fixed decimals and format output. | `double`, `iomanip`, `setprecision(2)`. | $\text{Average} = (N_1 + N_2 + N_3) / 3$ | The average is displayed formatted to two decimal places (e.g., `88.17`). |
+| **Average of Three Numbers** | Calculate the average of three fixed decimals and format output. | `double`, `iomanip`, `setprecision(2)`. | $\text{Average} = \frac{N_1 + N_2 + N_3}{3}$ | The average is displayed formatted to two decimal places (e.g., `88.17`). |
 | **Arithmetic Operators** | Take two integers and demonstrate all five arithmetic operations. | User input (`cin`), `int` variables, operators `+`, `-`, `*`, `/`, `%`. | Sum, Subtraction, Multiplication, Integer Division, Modulus (Remainder). | Displays results of all five operations with the expression (e.g., `10 % 3 = 1`). |
-| **BMI Calculator** | Prompt user for weight (kg) and height (m) and calculate BMI. | User input (`cin`), `double` variables, formula implementation. | $\text{BMI} = \text{Weight} / (\text{Height} \times \text{Height})$ | Prompts for inputs, then displays the calculated `Your BMI is: [value]`. |
-| **Trip Cost Estimator** | Estimate trip fuel cost using distance, vehicle efficiency (km/L), and fuel cost per liter. | Multiple user inputs, `double` for costs and distances. | $\text{Trip Cost} = (\text{Distance} / \text{V\_Efficiency}) \times \text{FuelCost}$ | Prompts for 3 inputs, then displays `Total trip cost: Rs [value]`. |
+| **BMI Calculator** | Prompt user for weight (kg) and height (m) and calculate BMI. | User input (`cin`), `double` variables, formula implementation. | $\text{BMI} = \frac{\text{Weight}}{\text{Height} \times \text{Height}}$ | Prompts for inputs, then displays the calculated `Your BMI is: [value]`. |
+| **Trip Cost Estimator** | Estimate trip fuel cost using distance, vehicle efficiency (km/L), and fuel cost per liter. | Multiple user inputs, `double` for costs and distances. | $\text{Trip Cost} = \frac{\text{Distance}}{\text{V\_Efficiency}} \times \text{FuelCost}$ | Prompts for 3 inputs, then displays `Total trip cost: Rs [value]`. |
 
 ---
 
